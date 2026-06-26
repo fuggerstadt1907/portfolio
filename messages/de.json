@@ -2,7 +2,7 @@
   "hero": {
     "greeting": "Hallo, ich bin Alessandro.",
     "title": "Ich übersetze Geschäftsziele in skalierbare Produkte und tragfähige Systeme",
-    "subtitle": "Ich bringe Klarheit in komplexe Produkte und Systeme, an der Schnittstelle von Produkt, Architektur und Engineering.",
+    "subtitle": "Ich bringe Klarheit in komplexe Produkte und Systeme, an der Schnittstelle von Produkt, Architektur und Engineering",
     "cta_primary": "Was ich mitbringe",
     "cta_secondary": "Kontakt aufnehmen",
     "badge": "TPO · Engineer · Solution Architect",
@@ -93,7 +93,7 @@
       }
     ],
     "resolution_label": "Genau hier setze ich an",
-    "resolution_headline": "Ich bringe Struktur, Klarheit und Tempo, genau dort, wo es hakt.",
+    "resolution_headline": "Ich bringe Struktur, Klarheit und Tempo, genau dort, wo es hakt",
     "resolution_body": "Als erfahrener Software Engineer, Product Owner und Solution Architekt kenne ich beide Seiten: den Business-Druck und die technische Realität. Ich überbrücke Lücken, schaffe Orientierung und sorge dafür, dass Teams wieder in die richtige Richtung arbeiten.",
     "resolution_cta": "Gespräch anfragen",
     "familiar": "Klingt vertraut?"
@@ -256,7 +256,7 @@
     }
   },
   "contact": {
-    "headline": "Lassen Sie uns sprechen.",
+    "headline": "Lassen Sie uns sprechen",
     "subheadline": "Wenn Ihr Unternehmen jemanden sucht, der Produkt, Architektur und Engineering zusammendenkt, auf Augenhöhe mit Business und Entwicklung gleichzeitig, dann sind Sie hier richtig.\n\nMich treibt an, Systeme zu bauen, die wirklich funktionieren: durchdacht, zukunftsfähig, mit KI als selbstverständlichem Teil des Handwerkszeugs. Komplexe Herausforderungen sind genau das, woran ich wachse.",
     "terminal_intro": "Initiiere Kontaktaufnahme...",
     "label_name": "Name",
@@ -342,6 +342,7 @@
   },
   "nav": {
     "problems": "Probleme",
+    "journey": "Mein Weg",
     "about": "Wie ich arbeite",
     "skills": "Skills",
     "contact": "Kontakt",
@@ -355,5 +356,76 @@
   "meta": {
     "title": "Alessandro Orlandi, TPO, Sr. Software Engineer & Architect",
     "description": "Alessandro Orlandi, Technical Product Owner, Solution Architect und Senior Engineer an der Schnittstelle von Produkt, Architektur und Engineering."
+  },
+  "career": {
+    "hero": {
+      "headline": "Mein Weg war nie geradlinig",
+      "headline2": "Genau das ist heute mein Vorteil",
+      "subtitle": "Jede Station meiner Laufbahn hat meinen Blick auf Business, Technologie und Produktentwicklung erweitert. Heute verbinde ich all diese Erfahrungen, um digitale Produkte mit echtem Mehrwert zu entwickeln"
+    },
+    "stations": {
+      "chapter": "Kapitel",
+      "people": {
+        "title": "Menschen verstehen",
+        "subtitle": "Verantwortung übernehmen, wenn Entscheidungen zählen",
+        "description": "Ich begann meine Laufbahn dort, wo Kommunikation und Verantwortung unmittelbar über den Erfolg entscheiden. Ob im Recruiting oder später im Rettungsdienst – ich lernte zuzuhören, Entscheidungen unter Unsicherheit zu treffen und auch in anspruchsvollen Situationen einen klaren Kopf zu bewahren.",
+        "skills": {
+          "communication": "Kommunikation",
+          "responsibility": "Verantwortung",
+          "decisionMaking": "Entscheidungsfähigkeit",
+          "teamwork": "Teamarbeit"
+        }
+      },
+      "business": {
+        "title": "Unternehmen verstehen",
+        "subtitle": "Business-Prozesse verstehen, bevor Software entsteht",
+        "description": "Mit dem Wechsel in die IT verlagerte sich mein Fokus auf komplexe Unternehmensprozesse. Als Service Owner und Technical Product Owner arbeitete ich an internationalen ERP-Lösungen, koordinierte Stakeholder und begleitete internationale Rollouts. Hier wurde mir klar: Gute Software beginnt mit einem tiefen Verständnis für Business und Prozesse.",
+        "skills": {
+          "business": "Business",
+          "requirements": "Requirements Engineering",
+          "stakeholders": "Stakeholder Management",
+          "prioritization": "Priorisierung"
+        }
+      },
+      "technology": {
+        "title": "Technologie gestalten",
+        "subtitle": "Skalierbare Systeme entstehen nicht zufällig",
+        "description": "Als Lead Engineer, Solution Architect und Consultant entwickelte ich komplexe Softwarelösungen und Cloud-Architekturen. Architektur bedeutete für mich jedoch nie nur Code, sondern Systeme so zu gestalten, dass sie langfristig verständlich, wartbar und skalierbar bleiben.",
+        "skills": {
+          "engineering": "Software Engineering",
+          "cloud": "Cloud",
+          "architecture": "Architektur",
+          "scaling": "Skalierung"
+        }
+      },
+      "today": {
+        "year": "seit 2024",
+        "title": "Heute",
+        "subtitle": "Business, Engineering und Produktstrategie zusammenbringen",
+        "description": "Heute verbinde ich die Erfahrungen aus allen vorherigen Stationen. Ich unterstütze Unternehmen dabei, Klarheit in komplexe Produktentscheidungen zu bringen, Anforderungen sinnvoll zu priorisieren und digitale Produkte zu entwickeln, die echten Mehrwert schaffen.",
+        "skills": {
+          "productOwnership": "Product Ownership",
+          "discovery": "Discovery",
+          "strategy": "Strategie",
+          "delivery": "Delivery"
+        }
+      }
+    },
+    "emt": {
+      "headline": "Parallel im Rettungsdienst aktiv",
+      "badge": "AKTIV",
+      "description": "Neben meiner Tätigkeit in der Softwareentwicklung engagiere ich mich bis heute im Rettungsdienst. Diese Erfahrung prägt meine Art zu kommunizieren, Prioritäten zu setzen und auch unter Druck fundierte Entscheidungen zu treffen."
+    },
+    "summary": {
+      "headline": "Heute profitiere ich nicht von einer einzelnen Station meiner Karriere",
+      "headline2": "Sondern von der Kombination aus allen",
+      "cards": {
+        "business": "Business verstehen",
+        "technology": "Technologie gestalten",
+        "people": "Menschen führen"
+      },
+      "result": "Product Owner & Solution Architect",
+      "subtitle": "Ich verbinde Business, Engineering und Produktstrategie, damit aus guten Ideen erfolgreiche digitale Produkte entstehen"
+    }
   }
 }

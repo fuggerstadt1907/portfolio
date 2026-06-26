@@ -9,6 +9,7 @@ import { useTheme } from "@/components/ThemeProvider";
 
 const NAV_SECTIONS = [
   { id: "problems", labelKey: "problems" },
+  { id: "journey", labelKey: "journey" },
   { id: "about", labelKey: "about" },
   { id: "skills", labelKey: "skills" },
   { id: "contact", labelKey: "contact" },
@@ -345,7 +346,7 @@ export default function Navbar() {
                         switchLocale();
                         setMobileOpen(false);
                       }}
-                      className="font-mono text-xs text-accent border border-accent/30 px-4 py-2 rounded hover:bg-accent-muted hover:shadow-[0_0_10px_rgba(0,229,255,0.2)] transition-all"
+                      className="w-9 h-9 flex items-center justify-center font-mono text-xs text-accent border border-accent/30 rounded hover:bg-accent-muted hover:shadow-[0_0_10px_rgba(0,229,255,0.2)] transition-all"
                     >
                       {t("language")}
                     </button>
