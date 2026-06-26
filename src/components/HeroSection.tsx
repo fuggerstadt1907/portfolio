@@ -235,7 +235,7 @@ export default function HeroSection() {
           variants={item(0.48)}
           initial="hidden"
           animate="visible"
-          className="flex flex-col sm:flex-row gap-4 justify-center"
+          className="flex flex-col sm:flex-row gap-4 justify-center px-6 sm:px-0"
         >
           <a
             href="#skills"

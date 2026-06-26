@@ -1,6 +1,6 @@
 export default function SectionDivider() {
   return (
-    <div className="relative flex items-center gap-3 px-8 py-6 select-none">
+    <div className="relative flex items-center gap-3 px-8 py-10 select-none">
       {/* left label */}
       <span className="font-mono text-xs text-accent opacity-40 whitespace-nowrap tracking-widest uppercase">
         sys.layer
