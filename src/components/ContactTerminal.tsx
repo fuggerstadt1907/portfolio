@@ -24,6 +24,11 @@ export default function ContactTerminal() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
       });
+      if (res.ok) {
+        setName("");
+        setEmail("");
+        setMessage("");
+      }
       setStatus(res.ok ? "success" : "error");
     } catch {
       setStatus("error");
