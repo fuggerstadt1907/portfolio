@@ -18,10 +18,18 @@ export default function ContactTerminal() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1200));
-    const ok = Math.random() > 0.1;
-    setStatus(ok ? "success" : "error");
-    setLoading(false);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message }),
+      });
+      setStatus(res.ok ? "success" : "error");
+    } catch {
+      setStatus("error");
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
