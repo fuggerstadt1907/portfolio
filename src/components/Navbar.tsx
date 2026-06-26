@@ -5,6 +5,7 @@ import { createPortal } from "react-dom";
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTheme } from "@/components/ThemeProvider";
 
 const NAV_SECTIONS = [
   { id: "problems", labelKey: "problems" },
@@ -22,6 +23,7 @@ export default function Navbar() {
   const [mounted, setMounted] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const terminalRef = useRef<HTMLSpanElement>(null);
+  const { theme, toggle } = useTheme();
 
   useEffect(() => {
     setMounted(true);
@@ -73,10 +75,10 @@ export default function Navbar() {
       className="flex items-center gap-2.5 font-mono text-accent font-semibold tracking-tight"
     >
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <polygon points="14,2 25,8 25,20 14,26 3,20 3,8" stroke="#00e5ff" strokeWidth="1.5" fill="rgba(0,229,255,0.06)" />
-        <path d="M10 20 L14 9 L18 20 M11.8 16.5 H16.2" stroke="#00e5ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-        <circle cx="3" cy="8" r="1" fill="#00e5ff" opacity="0.7" />
-        <circle cx="25" cy="20" r="1" fill="#00e5ff" opacity="0.7" />
+        <polygon points="14,2 25,8 25,20 14,26 3,20 3,8" stroke="currentColor" strokeWidth="1.5" fill="currentColor" fillOpacity="0.06" />
+        <path d="M10 20 L14 9 L18 20 M11.8 16.5 H16.2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        <circle cx="3" cy="8" r="1" fill="currentColor" opacity="0.7" />
+        <circle cx="25" cy="20" r="1" fill="currentColor" opacity="0.7" />
       </svg>
       Alessandro Orlandi
     </a>
@@ -119,6 +121,23 @@ export default function Navbar() {
             >
               {t("language")}
             </button>
+            {mounted && (
+              <button
+                onClick={toggle}
+                aria-label={theme === "dark" ? "Light mode aktivieren" : "Dark mode aktivieren"}
+                className="w-8 h-8 flex items-center justify-center rounded border border-border text-accent hover:bg-accent-muted transition-colors"
+              >
+                {theme === "dark" ? (
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+                  </svg>
+                ) : (
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                  </svg>
+                )}
+              </button>
+            )}
           </div>
 
           {/* Mobile terminal toggle */}
@@ -162,7 +181,7 @@ export default function Navbar() {
             transition={{ duration: 0.25 }}
             data-mobile-overlay=""
             className="fixed inset-0 z-40 md:hidden flex flex-col"
-            style={{ background: "rgba(8,12,16,0.97)" }}
+            style={{ background: theme === "dark" ? "rgba(8,12,16,0.97)" : "rgba(240,244,248,0.97)" }}
           >
             {/* Scan-line overlay */}
             <div
@@ -216,19 +235,34 @@ export default function Navbar() {
                 );
               })}
 
-              {/* Language switch */}
+              {/* Language + Theme switch */}
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ delay: 0.4, duration: 0.3 }}
-                className="mt-8"
+                className="mt-8 flex items-center gap-3"
               >
                 <button
                   onClick={() => { switchLocale(); setMobileOpen(false); }}
                   className="font-mono text-xs text-accent border border-accent/30 px-4 py-2 rounded hover:bg-accent-muted hover:shadow-[0_0_10px_rgba(0,229,255,0.2)] transition-all"
                 >
                   {t("language")}
+                </button>
+                <button
+                  onClick={toggle}
+                  aria-label={theme === "dark" ? "Light mode aktivieren" : "Dark mode aktivieren"}
+                  className="w-9 h-9 flex items-center justify-center rounded border border-accent/30 text-accent hover:bg-accent-muted transition-all"
+                >
+                  {theme === "dark" ? (
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+                    </svg>
+                  ) : (
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                  )}
                 </button>
               </motion.div>
             </div>

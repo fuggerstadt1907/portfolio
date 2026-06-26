@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import { useTheme } from "@/components/ThemeProvider";
 
-function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
+function TriangleGraphic({ labels, color }: { labels: [string, string, string]; color: string }) {
   // Triangle vertices (centered in 380x240 viewBox, extra horizontal padding for labels)
   const cx = 190;
   const top = { x: cx, y: 24 };
@@ -31,8 +32,8 @@ function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
     >
       <defs>
         <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#22d3ee" stopOpacity="0.18" />
-          <stop offset="100%" stopColor="#22d3ee" stopOpacity="0" />
+          <stop offset="0%" stopColor={color} stopOpacity="0.18" />
+          <stop offset="100%" stopColor={color} stopOpacity="0" />
         </radialGradient>
         <filter id="glow">
           <feGaussianBlur stdDeviation="2.5" result="blur" />
@@ -61,7 +62,7 @@ function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
           y1={a.y}
           x2={b.x}
           y2={b.y}
-          stroke="#22d3ee"
+          stroke={color}
           strokeWidth="1"
           strokeOpacity="0.35"
           strokeDasharray="4 4"
@@ -76,7 +77,7 @@ function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
           y1={center.y}
           x2={n.x}
           y2={n.y}
-          stroke="#22d3ee"
+          stroke={color}
           strokeWidth="0.75"
           strokeOpacity="0.2"
         />
@@ -89,7 +90,7 @@ function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
         { r: 4,  opacity: 0.45 },
         { r: 2,  opacity: 1.0  },
       ].map(({ r, opacity }, i) => (
-        <circle key={`td-${i}`} r={r} fill="#22d3ee" opacity={opacity}>
+        <circle key={`td-${i}`} r={r} fill={color} opacity={opacity}>
           <animateMotion
             dur="6s"
             repeatCount="indefinite"
@@ -103,7 +104,7 @@ function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
         cx={center.x}
         cy={center.y}
         r="3.5"
-        fill="#22d3ee"
+        fill={color}
         opacity="0.5"
         filter="url(#glow)"
       >
@@ -118,12 +119,12 @@ function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
       {/* nodes + labels */}
       {nodes.map((n, i) => (
         <g key={`n-${i}`}>
-          <circle cx={n.x} cy={n.y} r="5" fill="#22d3ee" opacity="0.15" />
+          <circle cx={n.x} cy={n.y} r="5" fill={color} opacity="0.15" />
           <circle
             cx={n.x}
             cy={n.y}
             r="3"
-            fill="#22d3ee"
+            fill={color}
             opacity="0.7"
             filter="url(#glow)"
           />
@@ -133,7 +134,7 @@ function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
             textAnchor="middle"
             fontSize="11"
             fontFamily="monospace"
-            fill="#22d3ee"
+            fill={color}
             opacity="0.75"
             letterSpacing="0.08em"
           >
@@ -147,6 +148,8 @@ function TriangleGraphic({ labels }: { labels: [string, string, string] }) {
 
 export default function HeroSection() {
   const t = useTranslations("hero");
+  const { theme } = useTheme();
+  const svgColor = theme === "light" ? "#00636e" : "#22d3ee";
   const title = t("title");
   const [displayed, setDisplayed] = useState("");
   const [cursorVisible, setCursorVisible] = useState(true);
@@ -224,6 +227,7 @@ export default function HeroSection() {
               t("triangle_architecture"),
               t("triangle_engineering"),
             ]}
+            color={svgColor}
           />
         </motion.div>
 
