@@ -116,7 +116,7 @@ export default function Navbar() {
             })}
             <button
               onClick={switchLocale}
-              aria-label={`Sprache wechseln zu ${t("language")}`}
+              aria-label={t("aria_language")}
               className="font-mono text-xs text-accent border border-border px-3 py-1 rounded hover:bg-accent-muted transition-colors"
             >
               {t("language")}
@@ -124,7 +124,7 @@ export default function Navbar() {
             {mounted && (
               <button
                 onClick={toggle}
-                aria-label={theme === "dark" ? "Light mode aktivieren" : "Dark mode aktivieren"}
+                aria-label={theme === "dark" ? t("aria_theme_dark") : t("aria_theme_light")}
                 className="w-8 h-8 flex items-center justify-center rounded border border-border text-accent hover:bg-accent-muted transition-colors"
               >
                 {theme === "dark" ? (
@@ -143,7 +143,7 @@ export default function Navbar() {
           {/* Mobile terminal toggle */}
           <button
             onClick={() => setMobileOpen((o) => !o)}
-            aria-label={mobileOpen ? "Menü schließen" : "Menü öffnen"}
+            aria-label={mobileOpen ? t("aria_menu_close") : t("aria_menu_open")}
             aria-expanded={mobileOpen}
             className="md:hidden group relative font-mono text-accent flex items-center gap-1 px-3 py-1.5 rounded border border-accent/20 hover:border-accent/60 transition-all duration-300 hover:shadow-[0_0_12px_rgba(0,229,255,0.35)]"
           >
@@ -251,7 +251,7 @@ export default function Navbar() {
                 </button>
                 <button
                   onClick={toggle}
-                  aria-label={theme === "dark" ? "Light mode aktivieren" : "Dark mode aktivieren"}
+                  aria-label={theme === "dark" ? t("aria_theme_dark") : t("aria_theme_light")}
                   className="w-9 h-9 flex items-center justify-center rounded border border-accent/30 text-accent hover:bg-accent-muted transition-all"
                 >
                   {theme === "dark" ? (

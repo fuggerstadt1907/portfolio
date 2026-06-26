@@ -224,7 +224,7 @@ export default function ProblemSlider() {
                   animate="visible"
                   className="px-8 py-6 border-t border-border bg-surface/60 flex items-center justify-between"
                 >
-                  <p className="text-muted text-sm">Klingt vertraut?</p>
+                  <p className="text-muted text-sm">{t("familiar")}</p>
                   <a
                     href="#contact"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-accent text-background font-semibold text-sm hover:opacity-90 transition-opacity shrink-0"

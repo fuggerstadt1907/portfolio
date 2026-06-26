@@ -117,7 +117,7 @@ export default function SkillModal({ skill, description, onClose }: Props) {
                   (e.currentTarget as HTMLElement).style.color = "var(--muted)";
                   (e.currentTarget as HTMLElement).style.borderColor = "rgba(0,229,255,0.15)";
                 }}
-                aria-label="Schließen"
+                aria-label={t("modal_close")}
               >
                 ✕
               </button>

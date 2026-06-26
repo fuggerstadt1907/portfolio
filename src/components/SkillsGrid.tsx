@@ -60,7 +60,7 @@ export default function SkillsGrid() {
                   : "border-border text-muted hover:text-foreground hover:border-muted"
               }`}
             >
-              Alle
+              {t("filter_all")}
             </button>
             {categoryKeys.map((key) => {
               const c = categoryColors[key];

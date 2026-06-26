@@ -95,10 +95,13 @@
     "resolution_label": "This is where I come in",
     "resolution_headline": "I bring structure, clarity, and momentum, right where it stalls.",
     "resolution_body": "As a seasoned Product Owner, Software Architect, and Full-Stack Engineer, I know both sides: the business pressure and the technical reality. I bridge the gaps, create orientation, and get teams moving in the right direction again.",
-    "resolution_cta": "Start a conversation"
+    "resolution_cta": "Start a conversation",
+    "familiar": "Sound familiar?"
   },
   "skills": {
     "headline": "What I bring",
+    "filter_all": "All",
+    "modal_close": "Close",
     "categories": {
       "product": "Product",
       "architecture": "Architecture",
@@ -263,6 +266,7 @@
     "placeholder_email": "your@email.com",
     "placeholder_message": "We're looking for someone in product / architecture and would love to learn more about you...",
     "submit": "Establish connection",
+    "loading": "Sending...",
     "success": "Message transmitted. I'll get back to you within 24h.",
     "error": "Transmission error. Please contact me directly by email."
   },
@@ -341,7 +345,12 @@
     "about": "How I work",
     "skills": "Skills",
     "contact": "Contact",
-    "language": "DE"
+    "language": "DE",
+    "aria_language": "Switch language to DE",
+    "aria_theme_dark": "Enable light mode",
+    "aria_theme_light": "Enable dark mode",
+    "aria_menu_close": "Close menu",
+    "aria_menu_open": "Open menu"
   },
   "meta": {
     "title": "Alessandro Orlandi, TPO, Sr. Software Engineer & Architect",

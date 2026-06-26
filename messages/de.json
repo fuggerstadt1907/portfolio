@@ -95,10 +95,13 @@
     "resolution_label": "Genau hier setze ich an",
     "resolution_headline": "Ich bringe Struktur, Klarheit und Tempo, genau dort, wo es hakt.",
     "resolution_body": "Als erfahrener Software Engineer, Product Owner und Solution Architekt kenne ich beide Seiten: den Business-Druck und die technische Realität. Ich überbrücke Lücken, schaffe Orientierung und sorge dafür, dass Teams wieder in die richtige Richtung arbeiten.",
-    "resolution_cta": "Gespräch anfragen"
+    "resolution_cta": "Gespräch anfragen",
+    "familiar": "Klingt vertraut?"
   },
   "skills": {
     "headline": "Was ich mitbringe",
+    "filter_all": "Alle",
+    "modal_close": "Schließen",
     "categories": {
       "product": "Product",
       "architecture": "Architektur",
@@ -263,6 +266,7 @@
     "placeholder_email": "ihre@email.de",
     "placeholder_message": "Wir suchen Unterstützung im Bereich Product / Architektur und würden gerne mehr über Sie erfahren...",
     "submit": "Verbindung herstellen",
+    "loading": "Wird gesendet...",
     "success": "Nachricht übermittelt. Ich melde mich innerhalb von 24h.",
     "error": "Übertragungsfehler. Bitte direkt per E-Mail kontaktieren."
   },
@@ -341,7 +345,12 @@
     "about": "Wie ich arbeite",
     "skills": "Skills",
     "contact": "Kontakt",
-    "language": "EN"
+    "language": "EN",
+    "aria_language": "Sprache wechseln zu EN",
+    "aria_theme_dark": "Light mode aktivieren",
+    "aria_theme_light": "Dark mode aktivieren",
+    "aria_menu_close": "Menü schließen",
+    "aria_menu_open": "Menü öffnen"
   },
   "meta": {
     "title": "Alessandro Orlandi, TPO, Sr. Software Engineer & Architect",

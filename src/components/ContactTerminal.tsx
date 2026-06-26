@@ -151,7 +151,7 @@ export default function ContactTerminal() {
                 >
                   {loading ? (
                     <span className="inline-flex items-center gap-2">
-                      <span className="animate-pulse">▋</span> Sending...
+                      <span className="animate-pulse">▋</span> {t("loading")}
                     </span>
                   ) : (
                     `$ ${t("submit")}`
