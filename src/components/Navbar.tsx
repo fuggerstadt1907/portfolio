@@ -144,7 +144,7 @@ export default function Navbar() {
             </motion.span>
             <span
               ref={terminalRef}
-              className="w-[2px] h-4 bg-accent inline-block"
+              className="w-0.5 h-4 bg-accent inline-block"
               style={{ animation: "terminal-blink 1s step-end infinite" }}
             />
           </button>
