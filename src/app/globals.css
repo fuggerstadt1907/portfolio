@@ -114,7 +114,7 @@ body::after {
   z-index: 1;
 }
 
-body > *:not(nav) {
+body > *:not(nav):not([data-mobile-overlay]) {
   position: relative;
   z-index: 2;
 }
@@ -164,4 +164,9 @@ body > *:not(nav) {
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
+}
+
+@keyframes terminal-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
