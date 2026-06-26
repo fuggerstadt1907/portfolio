@@ -67,7 +67,7 @@ export default function SkillModal({ skill, description, onClose }: Props) {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
           onClick={(e) => { if (e.target === overlayRef.current) onClose(); }}
-          className="fixed inset-0 z-50 flex items-center justify-center px-4 pt-20 pb-4"
+          className="fixed inset-0 z-50 flex items-center justify-center px-4 py-4 pt-20"
           style={{ background: "rgba(13,17,23,0.85)", backdropFilter: "blur(8px)" }}
         >
           <motion.div
@@ -76,7 +76,7 @@ export default function SkillModal({ skill, description, onClose }: Props) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.94, y: 16 }}
             transition={{ duration: 0.25, ease: "easeOut" }}
-            className="relative w-full max-w-2xl max-h-[calc(100vh-6rem)] overflow-y-auto rounded-2xl border scrollbar-hide"
+            className="relative w-full max-w-2xl max-h-[calc(100dvh-6rem)] overflow-y-auto rounded-2xl border scrollbar-hide"
             style={{
               background: "var(--surface-raised)",
               borderColor: "rgba(0,229,255,0.2)",
