@@ -1,0 +1,350 @@
+{
+  "hero": {
+    "greeting": "Hallo, ich bin Alessandro.",
+    "title": "Ich übersetze Geschäftsziele in skalierbare Produkte und tragfähige Systeme",
+    "subtitle": "Ich bringe Klarheit in komplexe Produkte und Systeme, an der Schnittstelle von Produkt, Architektur und Engineering.",
+    "cta_primary": "Was ich mitbringe",
+    "cta_secondary": "Kontakt aufnehmen",
+    "badge": "TPO · Engineer · Solution Architect",
+    "triangle_product": "Produkt",
+    "triangle_architecture": "Architektur",
+    "triangle_engineering": "Engineering"
+  },
+  "problems": {
+    "headline": "Kennen Sie das?",
+    "subheadline": "Typische Herausforderungen, die ich in Softwareprojekten immer wieder beobachte.",
+    "section_problem": "Problem",
+    "section_consequences": "Das führt dazu",
+    "section_resolution": "Genau hier setze ich an",
+    "section_outcomes": "Das Ergebnis",
+    "cta": "Gespräch anfragen",
+    "items": [
+      {
+        "id": "chaos",
+        "title": "Backlog-Chaos",
+        "description": "Tickets ohne Kontext. Stories ohne Akzeptanzkriterien. Keine klare Priorisierung. Das Team arbeitet – aber in die falsche Richtung.",
+        "consequences": [
+          "Entwickler schätzen falsch – weil der Kontext fehlt",
+          "Stakeholder diskutieren ständig über Prioritäten neu",
+          "Features dauern dreimal so lang wie geplant",
+          "Das Team ist beschäftigt, aber arbeitet am falschen Thema"
+        ],
+        "resolution": "Als Product Owner bringe ich Struktur in Anforderungen und Priorisierung. Ich schaffe ein gemeinsames Verständnis zwischen Business und Entwicklung – sodass jeder weiß, was als Nächstes kommt und warum.",
+        "outcomes": [
+          "Priorisiertes Backlog mit klarem Kontext",
+          "Verständliche User Stories mit Akzeptanzkriterien",
+          "Planbare Releases",
+          "Schnellere Produktentwicklung"
+        ]
+      },
+      {
+        "id": "handoff",
+        "title": "Design-Dev-Gap",
+        "description": "Figma-Designs treffen auf Entwickler ohne technischen Kontext. Endlose Rückfragen, Nacharbeit, frustrierte Teams auf beiden Seiten.",
+        "consequences": [
+          "Entwickler interpretieren Designs eigenständig",
+          "Klärungsschleifen fressen Sprint-Kapazität auf",
+          "Nacharbeit nach dem Sprint ist die Regel",
+          "Das Design-System wird inkonsistent umgesetzt"
+        ],
+        "resolution": "Ich übersetze Design-Intent in technische Spezifikationen. Als jemand, der beide Seiten kennt, erkenne ich früh, wo Designs technische Probleme erzeugen – bevor sie zum Sprint-Blocker werden.",
+        "outcomes": [
+          "Entwicklungsreife Komponenten mit klaren States",
+          "Edge Cases und Fehlerzustände dokumentiert",
+          "Weniger Nacharbeit nach Lieferung",
+          "Reibungsloser Handoff zwischen Design und Entwicklung"
+        ]
+      },
+      {
+        "id": "architecture",
+        "title": "Technische Schulden",
+        "description": "Schnelle Lösungen von gestern blockieren Features von heute. Niemand weiß mehr, warum Entscheidungen so getroffen wurden.",
+        "consequences": [
+          "Neue Features blockieren sich gegenseitig",
+          "Niemand traut sich mehr, Kernbereiche anzufassen",
+          "Velocity sinkt – bei gleichbleibendem Aufwand",
+          "Onboarding neuer Entwickler dauert Monate"
+        ],
+        "resolution": "Als Solution Architect entwickle ich Strategien, um technische Schulden schrittweise abzubauen – ohne den laufenden Betrieb zu gefährden. Ich trenne, was heute geliefert werden muss, von dem, was langfristig stabilisiert werden sollte.",
+        "outcomes": [
+          "Klare Migrationspfade mit definierten Schritten",
+          "Dokumentierte Architekturentscheidungen",
+          "Wartbares Codebase mit niedrigerer Einarbeitungszeit",
+          "Planbare Modernisierung ohne Big-Bang-Risiko"
+        ]
+      },
+      {
+        "id": "alignment",
+        "title": "Fehlende Ausrichtung",
+        "description": "Business will Roadmaps, Engineering will Specs. Stakeholder verfolgen unterschiedliche Ziele. In der Mitte: niemand, der übersetzt.",
+        "consequences": [
+          "Anforderungen ändern sich ständig in letzter Minute",
+          "Engineering baut, was niemand so wollte",
+          "Endlose Meetings ohne klares Ergebnis",
+          "Vertrauen zwischen Business und Entwicklung erodiert"
+        ],
+        "resolution": "Ich fungiere als gemeinsame Sprache zwischen Business und Entwicklung. Mit strukturierten Workshops, klaren Entscheidungsformaten und transparenter Kommunikation sorge ich dafür, dass alle am selben Strang ziehen.",
+        "outcomes": [
+          "Gemeinsames Produktverständnis im gesamten Team",
+          "Klare Entscheidungsverantwortung",
+          "Weniger Abstimmungsaufwand pro Sprint",
+          "Schnellere Umsetzungszyklen"
+        ]
+      }
+    ],
+    "resolution_label": "Genau hier setze ich an",
+    "resolution_headline": "Ich bringe Struktur, Klarheit und Tempo, genau dort, wo es hakt.",
+    "resolution_body": "Als erfahrener Software Engineer, Product Owner und Solution Architekt kenne ich beide Seiten: den Business-Druck und die technische Realität. Ich überbrücke Lücken, schaffe Orientierung und sorge dafür, dass Teams wieder in die richtige Richtung arbeiten.",
+    "resolution_cta": "Gespräch anfragen"
+  },
+  "skills": {
+    "headline": "Was ich mitbringe",
+    "categories": {
+      "product": "Product",
+      "architecture": "Architektur",
+      "process": "Prozess",
+      "tools": "Tools"
+    },
+    "items": [
+      {
+        "category": "product",
+        "name": "User Story Mapping",
+        "level": 5,
+        "diagram": "user-story-map"
+      },
+      {
+        "category": "product",
+        "name": "Stakeholder Management",
+        "level": 5,
+        "diagram": "stakeholder-hub"
+      },
+      {
+        "category": "architecture",
+        "name": "System Design",
+        "level": 5,
+        "diagram": "c4-context"
+      },
+      {
+        "category": "architecture",
+        "name": "API Design (REST/GraphQL)",
+        "level": 4,
+        "diagram": "api-matrix"
+      },
+      {
+        "category": "architecture",
+        "name": "Cloud Architecture (AWS/GCP)",
+        "level": 4,
+        "diagram": "cloud-evolution"
+      },
+      {
+        "category": "architecture",
+        "name": "Domain-Driven Design",
+        "level": 4,
+        "diagram": "context-map"
+      },
+      {
+        "category": "process",
+        "name": "Scrum / Kanban",
+        "level": 5,
+        "diagram": "scrum-kanban-matrix"
+      },
+      {
+        "category": "process",
+        "name": "Technische Dokumentation",
+        "level": 5,
+        "diagram": "doc-layers"
+      },
+      {
+        "category": "process",
+        "name": "Code Reviews",
+        "level": 4,
+        "diagram": "review-pyramid"
+      },
+      {
+        "category": "tools",
+        "name": "Figma",
+        "level": 4,
+        "diagram": "figma-pipeline"
+      },
+      {
+        "category": "tools",
+        "name": "Jira / Linear",
+        "level": 5,
+        "diagram": "backlog-hierarchy"
+      },
+      {
+        "category": "tools",
+        "name": "TypeScript / React",
+        "level": 4,
+        "diagram": "frontend-layers"
+      }
+    ],
+    "details": {
+      "User Story Mapping": {
+        "text": "User Story Mapping setze ich früh ein, sobald grobe Anforderungen vorliegen, aber bevor wir in Sprintplanung oder Umsetzung gehen. In einem Workshop mit Stakeholdern aus Fachbereich, Entwicklung und UX entwickeln wir gemeinsam eine strukturierte Sicht auf den tatsächlichen Nutzerprozess.\n\nAus einer oft unsortierten Anforderungssammlung entstehen dabei drei konkrete Artefakte: eine strukturierte Backlog-Hierarchie, ein klar abgegrenzter MVP- oder Release-Scope und eine gemeinsame fachliche Sicht auf den Nutzerprozess.\n\nDas eigentliche Ergebnis ist die Transparenz: Das Team versteht den End-to-End-Flow, Abhängigkeiten werden sichtbar, und Priorisierungsentscheidungen, besonders in technischen Projekten, werden nachvollziehbar statt intuitiv."
+      },
+      "Stakeholder Management": {
+        "text": "Technische Herausforderungen lassen sich meist lösen, fehlende Abstimmung zwischen Beteiligten deutlich schwieriger. Stakeholder Management ist für mich deshalb einer der zentralen Erfolgsfaktoren in Projekten.\n\nMein Stakeholder-Kreis reicht vom C-Level über Entwicklungsteams und UX bis zu Kunden und externen Partnern. Ein Großteil meiner Arbeit besteht darin, Business-Anforderungen und technische Rahmenbedingungen zusammenzubringen und dabei als Übersetzer zwischen beiden Seiten zu funktionieren.\n\nBei widersprüchlichen Interessen versuche ich zunächst, die eigentlichen Ziele hinter den Forderungen zu verstehen. Das verschiebt Diskussionen von persönlichen Meinungen hin zu faktenbasierten Entscheidungen, unterstützt u. a. durch Power/Interest-Mapping zur Priorisierung.\n\nDas häufigste Kernproblem: fehlende Transparenz über Auswirkungen von Entscheidungen. Sobald alle Beteiligten dieselbe Sicht auf Ziele, Prioritäten und Konsequenzen haben, lösen sich viele Konflikte von selbst."
+      },
+      "System Design": {
+        "text": "System Design bedeutet für mich, fachliche Anforderungen, Skalierbarkeit, Wartbarkeit und Umsetzungskosten in Einklang zu bringen. Mein Schwerpunkt liegt auf der High-Level-Architektur: Komponentenaufteilung, Servicegrenzen, Datenflüsse, Integrationen zu Drittsystemen und technische Risiken.\n\nDer Großteil meiner Projekte findet in bestehenden Systemlandschaften statt. Die eigentliche Herausforderung ist selten das Greenfield-Design, sondern neue Anforderungen in gewachsene Architekturen zu integrieren, mit Blick auf technische Schulden, Migrationspfade und Abhängigkeiten.\n\nJe nach Phase entstehen unterschiedliche Artefakte: Architekturdiagramme (C4), Kontext- und Datenflussdiagramme, ADRs oder Management-Präsentationen. Das wichtigste Ergebnis ist aber nicht das Dokument selbst, sondern ein gemeinsames Verständnis darüber, warum eine Entscheidung getroffen wurde und welche Konsequenzen sie hat."
+      },
+      "API Design (REST/GraphQL)": {
+        "text": "REST oder GraphQL. Die Entscheidung treffe ich nicht ideologisch, sondern entlang von Nutzung, Teamstruktur und Datenzugriffsmustern. REST, wenn klare ressourcenbasierte Domänen und CRUD-lastige Use Cases dominieren. GraphQL als Backend-for-Frontend-Schicht (BFF), wenn sehr unterschiedliche Clients stark unterschiedliche Daten brauchen oder Over-/Underfetching zum echten Problem wird.\n\nMeine wichtigsten Prinzipien unabhängig vom Stil: klare Contracts, konsistente Fehlerbehandlung, Backward Compatibility so lange wie möglich, kein Domain-Zuständigkeitschaos durch „God APIs\".\n\nDer häufigste und teuerste Fehler: APIs werden aus Implementierungssicht modelliert statt aus Domänensicht. Endpunkte spiegeln Tabellen oder interne Services 1:1 wider. Das führt zu hoher Kopplung, häufigen Breaking Changes und Workarounds auf Client-Seite.\n\nGutes API Design spricht die fachliche Sprache des Systems, nicht die interne technische Struktur."
+      },
+      "Cloud Architecture (AWS/GCP)": {
+        "text": "Mein Fokus liegt nicht auf Infra-Details, sondern auf sinnvollen Architekturentscheidungen als Schnittstelle zwischen Produktanforderungen und technischer Umsetzung. Grundprinzip: so viel Managed und Serverless wie möglich, so wenig Infrastruktur-Management wie nötig.\n\nIaC (Terraform, CDK) nutze ich dort, wo Infrastruktur reproduzierbar und versioniert sein muss, aber als Umsetzungsform einer vorher klar definierten Architekturentscheidung. Erst Konzept, dann Automatisierung.\n\nKosten vs. Skalierbarkeit ist für mich kein technisches, sondern ein Produkt- und Wachstumsproblem. Startpunkt ist immer Einfachheit: keine Over-Engineering-Architektur für hypothetische Last. Skalierung wird durch Metriken getriggert, nicht durch Annahmen. Kosten betrachte ich als aktiven Architekturparameter. Total Cost of Ownership, nicht nur die Cloud-Rechnung.\n\nZiel ist eine Architektur, die mit dem Produkt wächst, nicht gegen es."
+      },
+      "Domain-Driven Design": {
+        "text": "DDD setze ich nicht dogmatisch ein, sondern kontextabhängig. Ich starte fast immer strategisch: Bounded Contexts sauber schneiden, Domänenlogik von technischen Details trennen, Verantwortlichkeiten klären. Taktisches DDD, also Entities, Aggregates und Repositories, kommt nur dann konsequent zum Einsatz, wenn die Domäne wirklich komplex genug ist.\n\nDDD lohnt sich bei komplexen Fachdomänen, mehreren parallelen Teams und hoher Änderungsfrequenz im Fachbereich. Bei einfachen CRUD-Anwendungen, MVPs oder kleinen Teams erzeugt es meist nur Overhead.\n\nIm Team vermittle ich DDD nie über Theorie, sondern über echte Pain Points: Warum ist Feature X so schwer zu ändern? Warum brechen Änderungen ständig andere Teile? Erst aus diesen Problemen heraus werden Bounded Contexts und Ubiquitous Language greifbar.\n\nDDD ist für mich ein Werkzeug für bessere Kommunikation und Schnittklarheit, keine Architekturreligion."
+      },
+      "Scrum / Kanban": {
+        "text": "Meine Wahl zwischen Scrum und Kanban hängt vom Kontext ab: Reifegrad des Teams, Produktart, Planbarkeit der Arbeit. Scrum, wenn aktiv aufgebaut wird und klare Iterationen Sinn ergeben. Kanban, wenn kontinuierlicher Flow wichtiger ist als Sprints, etwa bei Support, Maintenance oder stark variierenden Anforderungen. In der Praxis sind viele gute Setups ohnehin Mischformen.\n\nMeine Rolle ist nicht die des Prozesswächters, sondern des Anpassers: Ich moderiere die Einführung, hinterfrage regelmäßig ob das Setup noch hilft, und optimiere gemeinsam mit dem Team, nicht gegen es.\n\nDie häufigste Fehlanwendung ist Cargo-Cult Agile: Scrum wird formal umgesetzt, ohne echtes agiles Denken dahinter. Sprints werden mechanisch gefüllt, Dailys werden zu Status-Reportings. Bei Kanban oft das Gegenteil: keine WIP-Limits, zu viele parallele Aufgaben.\n\nDas Framework ist nur ein Werkzeug. Entscheidend ist, ob es hilft, bessere Entscheidungen schneller und transparenter zu treffen."
+      },
+      "Technische Dokumentation": {
+        "text": "Ich dokumentiere nicht alles gleich intensiv, sondern unterscheide bewusst zwischen dem, was langfristig Orientierung gibt, und dem, was ohnehin im Code oder in Tests sichtbar ist. Mein Fokus liegt auf Architekturentscheidungen, Systemflüssen, Abhängigkeiten und technischen Konzepten.\n\nIch schreibe für zwei Gruppen mit unterschiedlichem Fokus und trenne das konsequent in zwei Ebenen: Der Executive View beantwortet Warum, Auswirkungen und Trade-offs. Der Technical View beschreibt Wie, Annahmen und Edge Cases.\n\nBei Tools bin ich pragmatisch: Markdown im Repo für technische Konzepte, ADRs für langfristig relevante Entscheidungen, Confluence für teamübergreifende Themen, C4-Diagramme für Architekturverständnis.\n\nDokumentation ist kein Selbstzweck, sondern ein Werkzeug zur Reduktion von Missverständnissen und technischen Schulden in der Kommunikation."
+      },
+      "Code Reviews": {
+        "text": "Im Code Review schaue ich nicht auf Stil, sondern auf Auswirkungen. Meine Priorität: Löst der Code wirklich das, was fachlich gefordert ist? Passt die Änderung ins bestehende Systemdesign? Gibt es ungewollte Nebenwirkungen? Sind kritische Pfade sinnvoll abgesichert, nicht zwingend viel, sondern gezielt?\n\nWenn ich nicht der primäre Entwickler bin, versuche ich bewusst nicht mitzuprogrammieren, sondern als Brücke zwischen Fachlichkeit und Technik zu funktionieren: Ist die fachliche Interpretation korrekt umgesetzt? Fehlen Edge Cases aus Business-Sicht? Ist die Lösung über- oder unter-engineered?\n\nMeine Rolle im Review ist oft die eines Qualitäts- und Kontextfilters: Nicht jedes Detail muss ich verbessern, aber ich achte darauf, dass keine falschen Annahmen ins System eingebaut werden, die später teuer werden."
+      },
+      "Figma": {
+        "text": "Ich nutze Figma nicht als klassischer UI/UX Designer, sondern als kollaboratives Werkzeug zwischen Design und Entwicklung. Mein Schwerpunkt: Designs aus technischer Perspektive reviewen, auf Machbarkeit, Edge Cases, fehlende States (Loading, Error, Empty), Konsistenz mit Design Systems sowie Auswirkungen auf API und Datenmodell.\n\nFigma ist für mich die Single Source of Truth für UI-Intent. Meine Rolle ist es, Designs entwicklungsreif zu machen: Ich erkenne früh wenn ein Design technische Komplexität erzeugt, denke in Komponentenarchitekturen statt nur in Screens, und übersetze UI-Entscheidungen direkt in System- und Implementierungsentscheidungen.\n\nErgänzend nutze ich Claude als Design-Partner, für schnelles Prototyping von UI-Ideen, Generierung von Komponenten-Drafts oder das Iterieren auf Layouts ohne Designer-Blockierung. Besonders wertvoll in frühen MVP-Phasen oder bei internen Tools.\n\nDer kritische Punkt ist der Übersetzungslayer zwischen Design und Engineering. Wenn der sauber funktioniert, entstehen weniger Reibungsverluste im Handoff und weniger Nacharbeit im Sprint."
+      },
+      "Jira / Linear": {
+        "text": "Jira oder Linear. Die Wahl hängt vom Kontext ab. Jira in klassischen Unternehmensumgebungen, wo es etabliert ist und gut in bestehende Prozesse integriert. Linear für kleinere, produktnahe Teams oder Startups, wo weniger Overhead und schnelleres Handling zählen.\n\nMein Fokus beim Backlog-Management liegt auf Struktur, Klarheit und Entscheidungsfähigkeit, nicht auf möglichst vielen Tickets. Klare Hierarchie (Epics → Features → Stories → Tasks), konsequente Priorisierung, Outcome-Fokus bei der Formulierung.\n\nEin Problem, das ich aktiv vermeide, ist das Zombie Backlog, also alte, nie priorisierte Tickets, die nur noch Rauschen erzeugen. Die werden entweder konkretisiert oder konsequent entfernt.\n\nDas Ziel ist simpel: Das Backlog soll jederzeit beantworten können, was das wichtigste Problem ist, das wir als Nächstes lösen."
+      },
+      "TypeScript / React": {
+        "text": "Ich bin nah an der Umsetzung dran. Ich schreibe regelmäßig produktiven Code in React- und React-Native-Projekten, nicht nur auf Review- oder Konzeptebene. Feature-Implementierung in bestehenden Codebases, Frontend-Architektur (State, API Layer, Foldering), Refactoring größerer Komponenten.\n\nTypeScript schätze ich nicht als Type Safety um der Type Safety willen, sondern als Kommunikations- und Stabilitätswerkzeug im Team: frühe Fehlererkennung, Self-documenting Code der Doku ersetzt, Refactoring-Sicherheit in größeren Codebases, schnelleres Onboarding neuer Entwickler.\n\nMein typischer Kontext: React Native (Expo-basiert), React/Next.js für Web und Dashboards, kombiniert mit strukturierten State-Ansätzen und klaren API-Layern. Mir ist dabei wichtig, dass React sauber in eine Gesamtarchitektur eingebettet ist, bestehend aus API, State und Domain-Struktur. Bei größeren Apps wird das schnell der entscheidende Faktor für Wartbarkeit."
+      }
+    },
+    "diagram_captions": {
+      "user-story-map": "Abb. 1 – User Story Map: Aktivitäten und User Stories in zeitlicher Reihenfolge, geschnitten nach Release-Scope und MVP-Grenze.",
+      "stakeholder-hub": "Abb. 2 – Stakeholder-Hub: Beziehungsgeflecht zwischen zentralem Ansprechpartner und allen relevanten Interessensgruppen im Projekt.",
+      "c4-context": "Abb. 3 – C4 Context Diagram: Systemgrenzen, externe Akteure und deren Interaktionen auf höchster Abstraktionsebene.",
+      "api-matrix": "Abb. 4 – API-Design-Matrix: Gegenüberstellung von REST- und GraphQL-Ansätzen nach Einsatzszenario, Datenzugriffsmuster und Schnittstellenkomplexität.",
+      "cloud-evolution": "Abb. 5 – Cloud Evolution: Stufenmodell vom On-Premise-Monolithen über Container-Infrastruktur bis zur vollständig serverlosen Cloud-Architektur.",
+      "context-map": "Abb. 6 – DDD Context Map: Bounded Contexts, deren strategische Beziehungen und Integrationsmuster im Überblick.",
+      "scrum-kanban-matrix": "Abb. 7 – Scrum/Kanban-Vergleich: Entscheidungsmatrix zur Methodenwahl anhand von Planbarkeit, Teamreife und Änderungsfrequenz.",
+      "doc-layers": "Abb. 8 – Dokumentations-Ebenen: Zweistufiges Modell aus Executive View (Warum/Trade-offs) und Technical View (Wie/Edge Cases).",
+      "review-pyramid": "Abb. 9 – Review-Pyramide: Priorisierung von Code-Review-Kriterien nach fachlicher Korrektheit, Systemdesign-Konformität und Absicherung kritischer Pfade.",
+      "figma-pipeline": "Abb. 10 – Figma-Pipeline: Handoff-Prozess von Design-Intent über technisches Review bis zur entwicklungsreifen Komponente.",
+      "backlog-hierarchy": "Abb. 11 – Backlog-Hierarchie: Strukturierte Ebenen von Epic über Feature und Story bis zum Task mit Priorisierungs- und Outcome-Fokus.",
+      "frontend-layers": "Abb. 12 – Frontend-Architektur-Schichten: Trennung von UI-Komponenten, State-Management, API-Layer und Domain-Struktur im React-Umfeld."
+    },
+    "glossary": {
+      "C4-Diagramm": "Architektur-Notation in 4 Abstraktionsebenen: Context, Container, Component, Code, von Vogelperspektive bis Implementierungsdetail.",
+      "C4": "Architektur-Notation in 4 Abstraktionsebenen: Context, Container, Component, Code, von Vogelperspektive bis Implementierungsdetail.",
+      "ADRs": "Architecture Decision Records. Sie dokumentieren Architekturentscheidungen mit Kontext, abgewogenen Optionen und Begründung. Langfristig wertvoller als jede Inline-Dokumentation.",
+      "ADR": "Architecture Decision Record. Es dokumentiert eine Architekturentscheidung mit Kontext, abgewogenen Optionen und Begründung.",
+      "Bounded Contexts": "DDD-Konzept: klar abgegrenzte Bereiche im System, jeder mit eigener Fachsprache und Verantwortlichkeit. Verhindert, dass ein Begriff in zwei Teams verschiedenes bedeutet.",
+      "Ubiquitous Language": "Gemeinsame Sprache zwischen Fachbereich und Technik, die in Code, Dokumentation und Gesprächen einheitlich verwendet wird. Kernkonzept aus Domain-Driven Design.",
+      "BFF": "Backend-for-Frontend. Eine API-Schicht speziell für einen bestimmten Client (z. B. Web oder Mobile), die genau die Daten liefert, die dieser Client braucht.",
+      "IaC": "Infrastructure as Code. Infrastruktur wird als versionierter Code definiert und automatisiert provisioniert, statt manuell konfiguriert zu werden.",
+      "WIP-Limits": "Work-in-Progress-Limits. Sie begrenzen die Anzahl paralleler Aufgaben im Kanban, um Fokus zu erzwingen und Engpässe sichtbar zu machen.",
+      "MVP": "Minimum Viable Product. Die kleinste Version eines Produkts, die echtes Nutzerfeedback liefert, ohne unnötige Features zu bauen.",
+      "CRUD": "Create, Read, Update, Delete. Die vier Grundoperationen auf Datensätzen. CRUD-lastig meint Systeme, deren Hauptfunktion das Verwalten von Daten ist.",
+      "Over-/Underfetching": "Over-fetching: API liefert mehr Daten als nötig. Under-fetching: zu wenige Daten, sodass mehrere Requests nötig sind. Beides kostet Performance und Bandbreite.",
+      "Power/Interest-Mapping": "Stakeholder-Analyse-Methode: ordnet Beteiligte nach Einfluss (Power) und Interesse (Interest) in einer Matrix, um Kommunikation zu priorisieren.",
+      "Cargo-Cult Agile": "Agile Methoden werden formal umgesetzt (Sprints, Dailys, Retros) ohne das zugrundeliegende Denken, Form ohne Substanz.",
+      "Zombie Backlog": "Ansammlung alter, nie priorisierter Tickets, die nur Lärm erzeugen. Niemand löscht sie, niemand bearbeitet sie, sie existieren einfach.",
+      "Total Cost of Ownership": "Gesamtkosten eines Systems über seinen Lebenszyklus: Entwicklung, Betrieb, Wartung, Migration, nicht nur die monatliche Cloud-Rechnung.",
+      "Greenfield-Design": "Architektur für ein komplett neues System ohne bestehende Einschränkungen, im Gegensatz zu Brownfield (Weiterentwicklung bestehender Systeme).",
+      "Serverless": "Cloud-Ausführungsmodell, bei dem kein Server manuell verwaltet wird. Die Cloud skaliert automatisch auf null, wenn kein Traffic vorhanden ist."
+    }
+  },
+  "contact": {
+    "headline": "Lassen Sie uns sprechen.",
+    "subheadline": "Wenn Ihr Unternehmen jemanden sucht, der Produkt, Architektur und Engineering zusammendenkt, auf Augenhöhe mit Business und Entwicklung gleichzeitig, dann sind Sie hier richtig.\n\nMich treibt an, Systeme zu bauen, die wirklich funktionieren: durchdacht, zukunftsfähig, mit KI als selbstverständlichem Teil des Handwerkszeugs. Komplexe Herausforderungen sind genau das, woran ich wachse.",
+    "terminal_intro": "Initiiere Kontaktaufnahme...",
+    "label_name": "Name",
+    "label_email": "E-Mail",
+    "label_message": "Nachricht",
+    "placeholder_name": "Ihr Name",
+    "placeholder_email": "ihre@email.de",
+    "placeholder_message": "Wir suchen Unterstützung im Bereich Product / Architektur und würden gerne mehr über Sie erfahren...",
+    "submit": "Verbindung herstellen",
+    "success": "Nachricht übermittelt. Ich melde mich innerhalb von 24h.",
+    "error": "Übertragungsfehler. Bitte direkt per E-Mail kontaktieren."
+  },
+  "about_me": {
+    "headline": "Wie ich arbeite",
+    "intro": "Ich arbeite an der Schnittstelle zwischen Produkt, Architektur und Engineering.\n\nMein Schwerpunkt liegt darauf, komplexe Anforderungen in klare Systemstrukturen zu übersetzen – in Umgebungen, in denen Geschwindigkeit, gewachsene Systeme und viele Stakeholder gleichzeitig aufeinandertreffen.\n\nIch bringe Scope-Klarheit, technische Weitsicht und die Fähigkeit mit, zwischen Business und Engineering als gemeinsame Sprache zu wirken.",
+    "cards": {
+      "ScopeControl": {
+        "title": "Scope Control & Delivery Focus",
+        "description": "Ich helfe Teams dabei, Anforderungen klarer zu schneiden und unkontrolliertes Scope Growth zu vermeiden. Durch strukturierte Backlogs und frühe Abstimmung mit Stakeholdern stelle ich sicher, dass jederzeit klar ist, was wirklich relevant für die Umsetzung ist."
+      },
+      "ProductAlignment": {
+        "title": "Product & Technical Alignment",
+        "description": "Ich übersetze zwischen Produktidee und technischer Umsetzung. So entsteht Konsistenz zwischen UX, Produktentscheidungen und Engineering – ohne Interpretationsverluste."
+      },
+      "ScalableArchitecture": {
+        "title": "Scalable Frontend Architecture",
+        "description": "Ich entwerfe Frontend-Strukturen, die auch bei wachsender Komplexität wartbar bleiben. Ziel ist nicht nur Features zu liefern, sondern Systeme zu bauen, die langfristig verständlich und erweiterbar bleiben."
+      },
+      "UXInteraction": {
+        "title": "UX Implementation & Interaction Engineering",
+        "description": "Ich überbrücke die Lücke zwischen Design-Intention und technischer Realität. Das umfasst die Umsetzung komplexer UI-Interaktionen und die Sicherstellung, dass Designs in produktiven Systemen sauber funktionieren."
+      },
+      "LegacyIntegration": {
+        "title": "Legacy System Integration",
+        "description": "Ich integriere moderne Frontend-Systeme in bestehende Legacy-Strukturen. Der Fokus liegt darauf, technische Reibung zu reduzieren und schrittweise Modernisierung zu ermöglichen, statt große riskante Rewrite-Projekte."
+      },
+      "PerformanceScaling": {
+        "title": "Performance & Scalability Engineering",
+        "description": "Ich achte auf Frontend-Performance-Patterns, die auch unter realer Last stabil bleiben. Dabei geht es um Rendering, Datenfluss und Architekturentscheidungen, die Skalierbarkeit beeinflussen."
+      },
+      "SystemThinking": {
+        "title": "System Thinking in Product Development",
+        "description": "Ich betrachte Frontend-Entwicklung nicht isoliert, sondern als Teil eines Gesamtsystems. Jede Entscheidung wird daraufhin bewertet, wie sie Produktentwicklung, Teamstruktur und langfristige Wartbarkeit beeinflusst."
+      },
+      "StakeholderAlignment": {
+        "title": "Stakeholder Alignment",
+        "description": "Ich bringe unterschiedliche Perspektiven zusammen und schaffe Transparenz bei technischen Entscheidungen. Durch klare Kommunikation zwischen Business, Design und Entwicklung lassen sich Risiken früh erkennen und Zielkonflikte schneller auflösen."
+      },
+      "ProductOrientedEngineering": {
+        "title": "Product-Oriented Engineering",
+        "description": "Ich betrachte technische Entscheidungen immer im Kontext des Produkterfolgs. Statt nur Anforderungen umzusetzen, fokussiere ich mich auf Lösungen, die Nutzerbedürfnisse, Business-Ziele und technische Nachhaltigkeit miteinander verbinden."
+      }
+    }
+  },
+  "footer": {
+    "role": "Software Engineer, Technical Product Owner & Solution Architekt",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz"
+  },
+  "legal": {
+    "back": "Zurück",
+    "impressum": {
+      "title": "Impressum",
+      "angaben_heading": "Angaben gemäß § 5 TMG",
+      "kontakt_heading": "Kontakt",
+      "verantwortlich_heading": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+      "haftung_heading": "Haftungsausschluss",
+      "haftung_text": "Die Inhalte dieser Seite wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Als Diensteanbieter bin ich gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich."
+    },
+    "datenschutz": {
+      "title": "Datenschutzerklärung",
+      "verantwortlicher_heading": "Verantwortlicher i. S. d. DSGVO",
+      "erhebung_heading": "Datenerfassung auf dieser Website",
+      "erhebung_text": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Die Kontaktdaten des Websitebetreibers können dem Impressum entnommen werden. Beim Besuch dieser Website werden keine Cookies gesetzt und keine Tracking-Technologien eingesetzt.",
+      "kontaktformular_heading": "Kontaktformular",
+      "kontaktformular_text": "Wenn Sie mir per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei mir gespeichert. Diese Daten werden nicht ohne Ihre Einwilligung weitergegeben.",
+      "hosting_heading": "Hosting",
+      "hosting_text": "Diese Website wird bei Vercel gehostet. Der Hoster erhebt in sogenannten Logfiles folgende Daten, die Ihr Browser übermittelt: IP-Adresse, die Adresse der vorher besuchten Website, Uhrzeit der Anfrage, Zeitzonendifferenz zur Greenwich Mean Time, Inhalt der Anforderung, HTTP-Statuscode, übertragene Datenmenge, Website von der die Anforderung kommt und Informationen zu Browser und Betriebssystem.",
+      "rechte_heading": "Ihre Rechte",
+      "rechte_text": "Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem das Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden."
+    }
+  },
+  "nav": {
+    "problems": "Probleme",
+    "about": "Wie ich arbeite",
+    "skills": "Skills",
+    "contact": "Kontakt",
+    "language": "EN"
+  },
+  "meta": {
+    "title": "Alessandro Orlandi, TPO, Sr. Software Engineer & Architect",
+    "description": "Alessandro Orlandi, Technical Product Owner, Solution Architect und Senior Engineer an der Schnittstelle von Produkt, Architektur und Engineering."
+  }
+}
