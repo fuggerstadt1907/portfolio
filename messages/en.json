@@ -1,319 +1,111 @@
 {
   "hero": {
-    "greeting": "Hi, I'm Alessandro.",
-    "title": "I translate business goals into scalable products and robust systems",
-    "subtitle": "I bring clarity to complex products and systems, at the intersection of product, architecture, and engineering",
-    "cta_primary": "What I bring",
-    "cta_secondary": "Get in touch",
-    "badge": "TPO · Engineer · Solution Architect",
-    "triangle_product": "Product",
-    "triangle_architecture": "Architecture",
-    "triangle_engineering": "Engineering"
+    "name": "Alessandro Orlandi",
+    "headline_1": "I build software.",
+    "headline_2": "Before that, I commissioned it.",
+    "subtitle": "For years I decided what gets built, what it costs, and who delivers it — without writing a single line of code. Since 2019, I write the code myself. I know what both sides feel like.",
+    "cta": "Get in touch"
   },
   "problems": {
-    "headline": "Does this sound familiar?",
-    "subheadline": "Typical challenges I keep observing across software projects.",
+    "headline": "There are situations where something is clearly off —",
+    "subheadline": "but nobody names it precisely. These problems rarely have a technical cause.",
     "section_problem": "The Problem",
     "section_consequences": "What this leads to",
     "section_resolution": "This is where I come in",
     "section_outcomes": "The outcome",
-    "cta": "Start a conversation",
+    "cta": "Get in touch",
+    "familiar": "Sounds familiar?",
     "items": [
       {
-        "id": "chaos",
-        "title": "Backlog chaos",
-        "description": "Tickets without context. Stories without acceptance criteria. No clear prioritization. The team is busy — but moving in the wrong direction.",
+        "id": "decisions",
+        "title": "Decisions are made too late",
+        "description": "What problem are we actually solving? Is this the right architecture? Does it make sense to build this ourselves? These questions often only come up once implementation is already underway.",
         "consequences": [
-          "Developers estimate poorly — because context is missing",
-          "Stakeholders constantly renegotiate priorities",
-          "Features take three times longer than planned",
-          "The team is active, but working on the wrong things"
+          "Architecture decisions get corrected retroactively — at high cost",
+          "Features get built that do not solve the actual problem",
+          "Technical debt accumulates from wrong initial assumptions",
+          "Development takes longer than planned — without a clear reason"
         ],
-        "resolution": "As a Product Owner, I bring structure to requirements and prioritization. I create a shared understanding between business and engineering — so everyone knows what comes next and why.",
+        "resolution": "I ask these questions early — when the answers can still change things. Before a single line of code is written.",
         "outcomes": [
-          "Prioritized backlog with clear context",
-          "Understandable user stories with acceptance criteria",
-          "Predictable releases",
-          "Faster product development"
+          "Clarity on the actual problem before solutions are discussed",
+          "Architecture decisions with traceable reasoning",
+          "Fewer retroactive corrections during the project",
+          "More realistic effort estimates from the start"
         ]
       },
       {
-        "id": "handoff",
-        "title": "Design-Dev gap",
-        "description": "Figma designs land with developers who lack technical context. Endless back-and-forth, rework, and frustrated teams on both sides.",
+        "id": "translation",
+        "title": "Business and engineering talk past each other",
+        "description": "Requirements get translated into technology too early. Technical concerns reach the business too late. In between, nobody understands what is really at stake.",
         "consequences": [
-          "Developers interpret designs independently",
-          "Clarification loops eat sprint capacity",
-          "Post-sprint rework becomes the norm",
-          "Design system gets implemented inconsistently"
+          "Engineering builds what nobody actually wanted",
+          "Business goals become invisible inside technical details",
+          "Endless alignment loops without clear outcomes",
+          "Trust between both sides erodes slowly"
         ],
-        "resolution": "I translate design intent into technical specifications. As someone who knows both sides, I spot early where designs create technical problems — before they become sprint blockers.",
+        "resolution": "I gather requirements, validate them, and translate them into technical reality — in both directions. Without information getting lost or expectations drifting apart.",
         "outcomes": [
-          "Implementation-ready components with clear states",
-          "Edge cases and error states documented",
-          "Less rework after delivery",
-          "Smooth handoff between design and engineering"
+          "Shared understanding between business and engineering",
+          "Technical tickets with traceable business context",
+          "Fewer surprises during acceptance reviews",
+          "Faster decision-making on both sides"
         ]
       },
       {
-        "id": "architecture",
-        "title": "Technical debt",
-        "description": "Quick fixes from yesterday block today's features. Nobody knows why decisions were made the way they were.",
+        "id": "sustainability",
+        "title": "Short-term solutions block long-term development",
+        "description": "Custom builds where standard solutions would work. Architecture without a view on maintainability. Scope creep from unclear requirements. The result: technical debt that eventually slows everything down.",
         "consequences": [
           "New features block each other",
-          "Nobody dares to touch core areas anymore",
-          "Velocity drops — at the same effort level",
-          "Onboarding new developers takes months"
+          "Maintenance effort exceeds development effort",
+          "Every change produces unexpected side effects",
+          "Onboarding new developers takes months instead of weeks"
         ],
-        "resolution": "As a Solution Architect, I develop strategies to reduce technical debt incrementally — without putting ongoing operations at risk. I separate what needs to be delivered today from what needs to be stabilized long-term.",
+        "resolution": "I think in terms of maintainability, cost, and long-term viability. Not every problem needs a custom build. Not every requirement needs to be implemented immediately.",
         "outcomes": [
-          "Clear migration paths with defined steps",
-          "Documented architecture decisions",
-          "Maintainable codebase with shorter ramp-up time",
-          "Planned modernization without big-bang risk"
-        ]
-      },
-      {
-        "id": "alignment",
-        "title": "Misalignment",
-        "description": "Business wants roadmaps, engineering wants specs. Stakeholders pursue different goals. In between: nobody translating.",
-        "consequences": [
-          "Requirements keep changing at the last minute",
-          "Engineering builds what nobody actually wanted",
-          "Endless meetings without clear outcomes",
-          "Trust between business and engineering erodes"
-        ],
-        "resolution": "I serve as a common language between business and engineering. Through structured workshops, clear decision formats, and transparent communication, I make sure everyone pulls in the same direction.",
-        "outcomes": [
-          "Shared product understanding across the team",
-          "Clear decision ownership",
-          "Less alignment overhead per sprint",
-          "Faster delivery cycles"
+          "Deliberate build-vs-buy decisions with clear reasoning",
+          "Architecture designed with long-term cost and maintainability in mind",
+          "Predictable roadmap without a growing debt burden",
+          "Scope control from the start rather than after the fact"
         ]
       }
-    ],
-    "resolution_label": "This is where I come in",
-    "resolution_headline": "I bring structure, clarity, and momentum, right where it stalls",
-    "resolution_body": "As a seasoned Product Owner, Software Architect, and Full-Stack Engineer, I know both sides: the business pressure and the technical reality. I bridge the gaps, create orientation, and get teams moving in the right direction again.",
-    "resolution_cta": "Start a conversation",
-    "familiar": "Sounds familiar?"
-  },
-  "skills": {
-    "headline": "What I bring",
-    "filter_all": "All",
-    "modal_close": "Close",
-    "categories": {
-      "product": "Product",
-      "architecture": "Architecture",
-      "process": "Process",
-      "tools": "Tools"
-    },
-    "items": [
-      {
-        "category": "product",
-        "name": "User Story Mapping",
-        "level": 5,
-        "diagram": "user-story-map"
-      },
-      {
-        "category": "product",
-        "name": "Stakeholder Management",
-        "level": 5,
-        "diagram": "stakeholder-hub"
-      },
-      {
-        "category": "architecture",
-        "name": "System Design",
-        "level": 5,
-        "diagram": "c4-context"
-      },
-      {
-        "category": "architecture",
-        "name": "API Design (REST/GraphQL)",
-        "level": 4,
-        "diagram": "api-matrix"
-      },
-      {
-        "category": "architecture",
-        "name": "Cloud Architecture (AWS/GCP)",
-        "level": 4,
-        "diagram": "cloud-evolution"
-      },
-      {
-        "category": "architecture",
-        "name": "Domain-Driven Design",
-        "level": 4,
-        "diagram": "context-map"
-      },
-      {
-        "category": "process",
-        "name": "Scrum / Kanban",
-        "level": 5,
-        "diagram": "scrum-kanban-matrix"
-      },
-      {
-        "category": "process",
-        "name": "Technical Documentation",
-        "level": 5,
-        "diagram": "doc-layers"
-      },
-      {
-        "category": "process",
-        "name": "Code Reviews",
-        "level": 4,
-        "diagram": "review-pyramid"
-      },
-      {
-        "category": "tools",
-        "name": "Figma",
-        "level": 4,
-        "diagram": "figma-pipeline"
-      },
-      {
-        "category": "tools",
-        "name": "Jira / Linear",
-        "level": 5,
-        "diagram": "backlog-hierarchy"
-      },
-      {
-        "category": "tools",
-        "name": "TypeScript / React",
-        "level": 4,
-        "diagram": "frontend-layers"
-      }
-    ],
-    "details": {
-      "User Story Mapping": {
-        "text": "I use User Story Mapping early, as soon as rough requirements are known, but before sprint planning or implementation begins. In a workshop with stakeholders from the business, engineering, and UX, we build a shared view of the actual user process together.\n\nFrom an often unsorted collection of requirements, three concrete artifacts emerge: a structured backlog hierarchy, a clearly scoped MVP or release plan, and a shared understanding of the user process across the team.\n\nThe real outcome is transparency: the team understands the end-to-end flow, dependencies become visible, and prioritization decisions, especially in technical projects, become traceable rather than intuitive."
-      },
-      "Stakeholder Management": {
-        "text": "Technical challenges can usually be solved, but misalignment between stakeholders is often much harder to fix. That's why stakeholder management is one of the most critical success factors in any project for me.\n\nMy stakeholder circle ranges from C-level and engineering teams to UX, customers, and external partners. A large part of my work consists of bridging business requirements and technical constraints, acting as a translator between both sides.\n\nWhen interests conflict, I first try to understand the actual goals behind the demands. That shifts discussions from personal opinions to fact-based decisions, supported by tools like Power/Interest Mapping for prioritization.\n\nThe most common root cause: missing transparency about the impact of decisions. Once all stakeholders share the same view of goals, priorities, and consequences, many conflicts resolve on their own."
-      },
-      "System Design": {
-        "text": "System design for me means balancing business requirements, scalability, maintainability, and implementation cost. My focus is on high-level architecture: component structure, service boundaries, data flows, third-party integrations, and technical risks.\n\nThe majority of my projects take place in existing system landscapes. The real challenge is rarely designing on a greenfield. It's integrating new requirements into grown architectures while accounting for technical debt, migration paths, and dependencies.\n\nDepending on the phase, different artifacts emerge: architecture diagrams (C4), context and data flow diagrams, ADRs, or management presentations. But the most important outcome isn't the document itself. It's a shared understanding of why a decision was made and what consequences it carries."
-      },
-      "API Design (REST/GraphQL)": {
-        "text": "REST or GraphQL. I don't decide ideologically, but based on usage patterns, team structure, and data access complexity. REST when clear resource-based domains and CRUD-heavy use cases dominate. GraphQL as a Backend-for-Frontend (BFF) layer when very different clients need very different data, or when over-/underfetching becomes a real problem.\n\nMy core principles regardless of style: clear contracts, consistent error handling, backward compatibility for as long as possible, and no domain chaos from \"God APIs\".\n\nThe most common and costly mistake: APIs modeled from an implementation perspective instead of a domain perspective. Endpoints that mirror tables or internal services 1:1 lead to tight coupling, frequent breaking changes, and workarounds on the client side.\n\nGood API design speaks the domain language of the system, not its internal technical structure."
-      },
-      "Cloud Architecture (AWS/GCP)": {
-        "text": "My focus isn't on infrastructure details but on sound architectural decisions at the intersection of product requirements and technical implementation. Core principle: as much managed and serverless as possible, as little infrastructure management as necessary.\n\nI use IaC (Terraform, CDK) where infrastructure needs to be reproducible and versioned, but as the implementation form of a previously defined architectural decision. Concept first, automation second.\n\nCost vs. scalability is not a technical problem for me. It's a product and growth problem. The starting point is always simplicity: no over-engineered architecture for hypothetical load. Scaling is triggered by metrics, not assumptions. I treat cost as an active architecture parameter. Total Cost of Ownership, not just the cloud bill.\n\nThe goal is an architecture that grows with the product, not against it."
-      },
-      "Domain-Driven Design": {
-        "text": "I don't apply DDD dogmatically. I use it contextually. I almost always start strategically: defining Bounded Contexts clearly, separating domain logic from technical details, clarifying ownership. Tactical DDD, meaning Entities, Aggregates, and Repositories, only comes in when the domain is genuinely complex enough to warrant it.\n\nDDD pays off in complex business domains, with multiple parallel teams, and high rates of change in the domain logic. For simple CRUD applications, MVPs, or small teams, it usually just adds overhead.\n\nIn teams, I never introduce DDD through theory. I start from real pain points: Why is feature X so hard to change? Why do changes constantly break other parts? Bounded Contexts and Ubiquitous Language become tangible only once the problems are visible.\n\nDDD is a tool for better communication and clearer boundaries, not an architectural religion."
-      },
-      "Scrum / Kanban": {
-        "text": "My choice between Scrum and Kanban depends on context: team maturity, product type, and how plannable the work is. Scrum when something is being actively built and clear iterations make sense. Kanban when continuous flow matters more than sprints, for support, maintenance, or highly variable requirements. In practice, many good setups are hybrids anyway.\n\nMy role is not that of a process enforcer, but an adapter: I facilitate the introduction, regularly question whether the setup is still helping, and improve it together with the team, not against it.\n\nThe most common failure is Cargo-Cult Agile: Scrum implemented formally, without real agile thinking behind it. Sprints filled mechanically, dailies turned into status reports. With Kanban, often the opposite: no WIP limits, too many parallel tasks.\n\nThe framework is just a tool. What matters is whether it helps make better decisions faster and more transparently."
-      },
-      "Technical Documentation": {
-        "text": "I don't document everything equally. I deliberately distinguish between what gives long-term orientation and what's already visible in the code or tests. My focus is on architecture decisions, system flows, dependencies, and technical concepts for complex features.\n\nI write for two groups with different needs, and I consistently separate them into two levels: the Executive View answers why, what the impact is, and what the trade-offs are. The Technical View describes how, what assumptions apply, and what the edge cases are.\n\nOn tooling, I'm pragmatic: Markdown in the repo for technical concepts, ADRs for long-term decisions, Confluence for cross-team topics, C4 diagrams for architectural understanding.\n\nDocumentation is not an end in itself. It's a tool for reducing misunderstandings and technical debt in communication."
-      },
-      "Code Reviews": {
-        "text": "In code reviews, I don't focus on style. I focus on impact. My priority: does the code actually solve what was functionally required? Does the change fit the existing system design? Are there unintended side effects? Are critical paths covered sensibly, not necessarily a lot, but deliberately?\n\nWhen I'm not the primary developer, I deliberately avoid co-programming and instead act as a bridge between business logic and technical implementation: Is the functional interpretation correctly implemented? Are there missing edge cases from a business perspective? Is the solution over- or under-engineered?\n\nMy role in reviews is often that of a quality and context filter: I don't need to improve every detail, but I make sure no false assumptions get built into the system that will become expensive later."
-      },
-      "Figma": {
-        "text": "I use Figma not as a classic UI/UX designer, but as a collaborative tool between design and engineering. My focus: reviewing designs from a technical perspective, covering feasibility, edge cases, missing states (loading, error, empty), consistency with design systems, and impact on the API and data model.\n\nFigma is for me the single source of truth for UI intent. My role is to make designs engineering-ready: I spot early when a design creates technical complexity, think in component architectures rather than just screens, and translate UI decisions directly into system and implementation decisions.\n\nI also use Claude as a design partner, for quick UI prototyping, generating component drafts, or iterating on layouts without designer dependency. Especially valuable in early MVP phases or for internal tools.\n\nThe critical point is the translation layer between design and engineering. When that works cleanly, there's less friction in handoff and less rework in the sprint."
-      },
-      "Jira / Linear": {
-        "text": "Jira or Linear. The choice depends on context. Jira in classic enterprise environments where it's established and integrates well with existing processes. Linear for smaller, product-focused teams or startups where less overhead and faster handling matter.\n\nMy focus in backlog management is on structure, clarity, and decision-making capability, not on maximizing ticket count. Clear hierarchy (Epics → Features → Stories → Tasks), consistent prioritization, outcome-focused formulation of items.\n\nOne problem I actively avoid is the Zombie Backlog, meaning old, never-prioritized tickets that only create noise. They get either concretized or consistently removed.\n\nThe goal is simple: the backlog should always be able to answer, what is the most important problem we should solve next?"
-      },
-      "TypeScript / React": {
-        "text": "I'm close to implementation. I regularly write production code in React and React Native projects, not just at the review or concept level. Feature implementation in existing codebases, frontend architecture (state, API layer, folder structure), refactoring larger components.\n\nI appreciate TypeScript not as type safety for its own sake, but as a communication and stability tool for the team: early error detection, self-documenting code that replaces documentation, refactoring safety in larger codebases, faster onboarding for new developers.\n\nMy typical context: React Native (Expo-based), React/Next.js for web and dashboards, combined with structured state approaches and clean API layers. What matters to me is that React is cleanly embedded in an overall architecture, covering API, state, and domain structure. In larger apps, that quickly becomes the deciding factor for maintainability."
-      }
-    },
-    "diagram_captions": {
-      "user-story-map": "Fig. 1 – User Story Map: Activities and user stories in sequential order, sliced by release scope and MVP boundary.",
-      "stakeholder-hub": "Fig. 2 – Stakeholder Hub: Relationship network between the central point of contact and all relevant interest groups in the project.",
-      "c4-context": "Fig. 3 – C4 Context Diagram: System boundaries, external actors, and their interactions at the highest level of abstraction.",
-      "api-matrix": "Fig. 4 – API Design Matrix: Comparison of REST and GraphQL approaches by use case, data access pattern, and interface complexity.",
-      "cloud-evolution": "Fig. 5 – Cloud Evolution: Stage model from on-premise monolith through container infrastructure to fully serverless cloud architecture.",
-      "context-map": "Fig. 6 – DDD Context Map: Bounded contexts, their strategic relationships, and integration patterns at a glance.",
-      "scrum-kanban-matrix": "Fig. 7 – Scrum/Kanban Comparison: Decision matrix for method selection based on predictability, team maturity, and change frequency.",
-      "doc-layers": "Fig. 8 – Documentation Layers: Two-tier model of Executive View (Why/Trade-offs) and Technical View (How/Edge Cases).",
-      "review-pyramid": "Fig. 9 – Review Pyramid: Prioritization of code review criteria by business correctness, system design conformance, and coverage of critical paths.",
-      "figma-pipeline": "Fig. 10 – Figma Pipeline: Handoff process from design intent through technical review to a development-ready component.",
-      "backlog-hierarchy": "Fig. 11 – Backlog Hierarchy: Structured levels from Epic through Feature and Story to Task, with prioritization and outcome focus.",
-      "frontend-layers": "Fig. 12 – Frontend Architecture Layers: Separation of UI components, state management, API layer, and domain structure in a React environment."
-    },
-    "glossary": {
-      "C4 diagram": "Architectural notation with 4 abstraction levels: Context, Container, Component, Code, from bird's eye view to implementation detail.",
-      "C4": "Architectural notation with 4 abstraction levels: Context, Container, Component, Code, from bird's eye view to implementation detail.",
-      "ADRs": "Architecture Decision Records. They document architectural decisions with context, considered options, and rationale. More durable than any inline comment.",
-      "ADR": "Architecture Decision Record. It documents an architectural decision with context, options considered, and rationale.",
-      "Bounded Contexts": "DDD concept: clearly bounded areas of a system, each with its own language and ownership. Prevents the same word meaning different things to different teams.",
-      "Ubiquitous Language": "A shared language between business and engineering, used consistently in code, docs, and conversation. Core concept from Domain-Driven Design.",
-      "BFF": "Backend-for-Frontend. An API layer tailored to one specific client (e.g. web or mobile) that delivers exactly the data that client needs.",
-      "IaC": "Infrastructure as Code. Infrastructure is defined as versioned code and provisioned automatically, instead of being configured manually.",
-      "WIP limits": "Work-in-Progress limits. They cap the number of parallel tasks in Kanban to enforce focus and make bottlenecks visible.",
-      "MVP": "Minimum Viable Product. The smallest version of a product that delivers real user feedback, without building unnecessary features.",
-      "CRUD": "Create, Read, Update, Delete. The four basic data operations. CRUD-heavy means systems whose main purpose is managing data records.",
-      "Over-/Underfetching": "Over-fetching: API returns more data than needed. Under-fetching: too little, requiring multiple requests. Both waste performance and bandwidth.",
-      "Power/Interest Mapping": "Stakeholder analysis method: maps participants by influence (power) and stake (interest) to prioritize communication.",
-      "Cargo-Cult Agile": "Agile methods applied formally (sprints, dailies, retros) without the underlying thinking, form without substance.",
-      "Zombie Backlog": "A pile of old, never-prioritized tickets that only generate noise. Nobody deletes them, nobody works on them, they just exist.",
-      "Total Cost of Ownership": "Total cost of a system over its lifetime: development, operations, maintenance, migration, not just the monthly cloud bill.",
-      "Greenfield": "Architecture for a completely new system with no existing constraints, as opposed to Brownfield (evolving existing systems).",
-      "Serverless": "Cloud execution model where no server is managed manually. The cloud scales automatically to zero when there's no traffic."
-    }
+    ]
   },
   "contact": {
-    "headline": "Let's talk",
-    "subheadline": "If you're looking for someone who connects product, architecture, and engineering, equally fluent with business stakeholders and development teams, you're in the right place.\n\nWhat drives me is building systems that actually work: well-considered, future-proof, with AI as a natural part of the craft. Complex challenges are exactly where I do my best work.",
-    "terminal_intro": "Initiating contact sequence...",
+    "headline": "If you are reading this, you probably have a specific situation in mind.",
+    "subheadline": "Write to me. No pitch, no process — just a conversation.",
+    "linkedin": "LinkedIn",
+    "terminal_intro": "Initiating contact...",
     "label_name": "Name",
     "label_email": "Email",
     "label_message": "Message",
     "placeholder_name": "Your name",
     "placeholder_email": "your@email.com",
-    "placeholder_message": "We're looking for someone in product / architecture and would love to learn more about you...",
-    "submit": "Establish connection",
+    "placeholder_message": "What is it about?",
+    "submit": "Send",
     "loading": "Sending...",
-    "success": "Message transmitted. I'll get back to you within 24h.",
-    "error": "Transmission error. Please contact me directly by email."
+    "success": "Message received. I will get back to you within 24h.",
+    "error": "Sending failed. Please reach out directly by email."
   },
   "about_me": {
     "headline": "How I work",
-    "intro": "I work at the intersection of product, architecture, and engineering.\n\nMy focus is translating complex requirements into clear system structures – in environments where speed, legacy systems, and multiple stakeholders collide.\n\nI bring scope clarity, technical foresight, and the ability to act as a shared language between business and engineering.",
-    "cards": {
-      "ScopeControl": {
-        "title": "Scope Control & Delivery Focus",
-        "description": "I help teams reduce ambiguity in requirements and prevent uncontrolled scope growth. By structuring backlogs and aligning stakeholders early, I ensure that teams always know what actually matters for delivery."
-      },
-      "ProductAlignment": {
-        "title": "Product & Technical Alignment",
-        "description": "I translate between product intent and technical implementation. This ensures that what is designed, discussed, and built stays consistent across UX, product, and engineering."
-      },
-      "ScalableArchitecture": {
-        "title": "Scalable Frontend Architecture",
-        "description": "I design frontend structures that remain maintainable as complexity grows. The goal is not just to ship features, but to keep systems understandable and adaptable over time."
-      },
-      "UXInteraction": {
-        "title": "UX Implementation & Interaction Engineering",
-        "description": "I bridge the gap between design intent and technical reality. This includes implementing complex UI behavior, interaction patterns, and ensuring that designs remain feasible in production systems."
-      },
-      "LegacyIntegration": {
-        "title": "Legacy System Integration",
-        "description": "I integrate modern frontend systems with existing legacy infrastructure. The focus is on reducing technical friction while enabling gradual modernization instead of disruptive rewrites."
-      },
-      "PerformanceScaling": {
-        "title": "Performance & Scalability Engineering",
-        "description": "I focus on frontend performance patterns that hold up under real-world load. This includes optimizing rendering behavior, data flow, and architectural decisions that impact scalability."
-      },
-      "SystemThinking": {
-        "title": "System Thinking in Product Development",
-        "description": "I approach frontend development as part of a larger system, not isolated UI work. Every decision is evaluated in terms of its impact on product evolution, team scalability, and long-term maintainability."
-      },
-      "StakeholderAlignment": {
-        "title": "Stakeholder Alignment",
-        "description": "I align stakeholders across business, design, and engineering teams. By creating transparency around technical decisions, I help teams identify risks early and resolve conflicting priorities more effectively."
-      },
-      "ProductOrientedEngineering": {
-        "title": "Product-Oriented Engineering",
-        "description": "I approach technical decisions through the lens of product success. Rather than simply implementing requirements, I focus on solutions that balance user needs, business goals, and long-term maintainability."
-      }
-    }
+    "lead": "I do not start with technologies.",
+    "lead2": "I start with questions.",
+    "questions_intro": "For example:",
+    "questions": [
+      "What problem are we actually trying to solve?",
+      "Why was this architecture chosen?",
+      "Why is development taking longer than expected?",
+      "What assumptions were made — and which of them still hold?",
+      "Where are the friction points between business and engineering?"
+    ],
+    "observation": "This sounds obvious. In practice, it rarely happens.",
+    "code_headline": "I still write code myself.",
+    "code_body": "Not because it is always necessary. But because it keeps my judgment sharp. I can estimate technical effort realistically because I carry it myself. I can evaluate architecture decisions because I know their consequences. I would not recommend a concept I could not implement myself."
   },
   "footer": {
-    "role": "Software Engineer, Technical Product Owner & Solution Architect",
+    "role": "Senior Software Engineer",
     "impressum": "Legal Notice",
     "datenschutz": "Privacy Policy"
   },
@@ -341,73 +133,72 @@
     }
   },
   "nav": {
-    "problems": "Problems",
-    "journey": "My Journey",
+    "problems": "How I help",
+    "journey": "My path",
     "about": "How I work",
-    "skills": "Skills",
     "contact": "Contact",
     "language": "DE",
     "aria_language": "Switch language to DE",
-    "aria_theme_dark": "Enable light mode",
-    "aria_theme_light": "Enable dark mode",
+    "aria_theme_dark": "Activate light mode",
+    "aria_theme_light": "Activate dark mode",
     "aria_menu_close": "Close menu",
     "aria_menu_open": "Open menu"
   },
   "meta": {
-    "title": "Alessandro Orlandi, TPO, Sr. Software Engineer & Architect",
-    "description": "Alessandro Orlandi, Technical Product Owner, Solution Architect, and Senior Engineer at the intersection of product, architecture, and engineering."
+    "title": "Alessandro Orlandi — Senior Software Engineer",
+    "description": "Software engineer with an enterprise background. I build software and help decide what should be built."
   },
   "career": {
     "hero": {
-      "headline": "My path was never a straight line",
-      "headline2": "That's exactly my advantage today",
-      "subtitle": "Every chapter of my career has expanded my perspective on business, technology, and product development. Today I bring all of these experiences together to build digital products that create real value"
+      "headline": "Most software engineers come from one direction.",
+      "headline2": "I took the opposite path.",
+      "subtitle": "I started on the business and IT side. Decided what gets built. Managed budgets. Led development teams — without writing a single line of code. Then I started engineering. And brought everything I had learned on the other side with me."
     },
     "stations": {
       "chapter": "Chapter",
       "people": {
-        "title": "Understanding people",
-        "subtitle": "Taking responsibility when decisions matter",
-        "description": "I started my career where communication and responsibility directly determine success. Whether in recruiting or later in emergency services – I learned to listen, make decisions under uncertainty, and keep a clear head in demanding situations.",
+        "title": "HR Recruiting",
+        "subtitle": "How organizations think about roles, teams, and talent",
+        "description": "I started my career in recruiting — not in IT. I learned how companies think internally about roles, responsibility, and team structure. That was not a detour. It was the foundation of an organizational understanding that nobody had to teach me later.",
         "skills": {
-          "communication": "Communication",
-          "responsibility": "Responsibility",
-          "decisionMaking": "Decision-making",
-          "teamwork": "Teamwork"
+          "communication": "Organizational thinking",
+          "responsibility": "Interviewing",
+          "decisionMaking": "Requirements gathering",
+          "teamwork": "Stakeholder communication"
         }
       },
       "business": {
-        "title": "Understanding organisations",
-        "subtitle": "Understand business processes before software is built",
-        "description": "Moving into IT shifted my focus to complex enterprise processes. As a Service Owner and Technical Product Owner, I worked on international ERP solutions, coordinated stakeholders, and accompanied international rollouts. It became clear to me: good software starts with a deep understanding of business and processes.",
+        "title": "IT Solutions Architect & Technical Product Owner",
+        "subtitle": "Commissioning software before building it myself",
+        "description": "I managed budgets, made make-or-buy decisions, ran vendor selection, and introduced and led a Change Advisory Board. I coordinated development teams and aligned stakeholders at management level — without writing a single line of production code. That is why I know what the other side of the table feels like.",
         "skills": {
-          "business": "Business",
-          "requirements": "Requirements Engineering",
-          "stakeholders": "Stakeholder Management",
-          "prioritization": "Prioritisation"
+          "business": "Budget & Governance",
+          "requirements": "Make-or-buy decisions",
+          "stakeholders": "Vendor selection",
+          "prioritization": "Change Advisory Board"
         }
       },
       "technology": {
-        "title": "Shaping technology",
-        "subtitle": "Scalable systems don't happen by accident",
-        "description": "As a Lead Engineer, Solution Architect, and Consultant, I developed complex software solutions and cloud architectures. Architecture never meant just code to me – it meant designing systems that remain comprehensible, maintainable, and scalable in the long run.",
+        "title": "Lead Frontend Engineer & Fullstack Software Engineer",
+        "subtitle": "Learning engineering from the inside — with an outside perspective",
+        "description": "Since 2019 I have been building software professionally. Direct client contact across all projects, technical consulting, and responsibility for piloting new technologies. Increasingly involved in early planning phases — before implementation began. My background shaped my engineering mindset from the start: What should be built? Why? Does this make sense?",
         "skills": {
-          "engineering": "Software Engineering",
-          "cloud": "Cloud",
-          "architecture": "Architecture",
-          "scaling": "Scaling"
+          "engineering": "React & TypeScript",
+          "cloud": "React Native & Expo",
+          "architecture": "Node.js & REST APIs",
+          "scaling": "Technical consulting"
         }
       },
       "today": {
         "year": "since 2024",
-        "title": "Today",
-        "subtitle": "Bringing business, engineering, and product strategy together",
-        "description": "Today I connect the experiences from all previous chapters. I help companies bring clarity to complex product decisions, meaningfully prioritise requirements, and build digital products that create real value.",
+        "title": "Architect, Consultant & Senior Engineer",
+        "subtitle": "Connecting business and engineering from first-hand experience",
+        "description": "At Evora I was the full business/engineering interface: gathering requirements with key users, translating them into technical tickets, and leading a remote development team. As an independent developer I built my own products — including DienstBuddy, a mobile app for emergency service workers. Today I am Senior Software Engineer at Peerigon.",
         "skills": {
-          "productOwnership": "Product Ownership",
-          "discovery": "Discovery",
-          "strategy": "Strategy",
-          "delivery": "Delivery"
+          "productOwnership": "Business/Engineering interface",
+          "discovery": "Team leadership",
+          "strategy": "Requirements analysis",
+          "delivery": "Product development"
         }
       }
     },
@@ -417,15 +208,15 @@
       "description": "Alongside my work in software development, I continue to volunteer in emergency medical services. This experience shapes how I communicate, set priorities, and make sound decisions under pressure."
     },
     "summary": {
-      "headline": "Today I don't benefit from a single chapter of my career",
-      "headline2": "But from the combination of all of them",
+      "headline": "I am not an engineer who worked their way toward the business side.",
+      "headline2": "I am someone who knows both sides from the inside.",
       "cards": {
-        "business": "Understanding business",
-        "technology": "Shaping technology",
-        "people": "Leading people"
+        "business": "Business & IT Governance",
+        "technology": "Software Engineering",
+        "people": "Team & Stakeholder"
       },
-      "result": "Product Owner & Solution Architect",
-      "subtitle": "I connect business, engineering, and product strategy so that good ideas become successful digital products"
+      "result": "Senior Software Engineer",
+      "subtitle": "I write code and can simultaneously judge whether the right thing is being built — because I know what both feel like in practice."
     }
   }
 }

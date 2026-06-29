@@ -8,14 +8,13 @@ import {
   AlertTriangle,
   GitBranch,
   Layers,
-  MessageSquare,
   ArrowRight,
   ChevronRight,
   CheckCircle2,
   Zap,
 } from "lucide-react";
 
-const ICONS = [AlertTriangle, GitBranch, Layers, MessageSquare];
+const ICONS = [AlertTriangle, GitBranch, Layers];
 
 type ProblemItem = {
   id: string;

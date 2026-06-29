@@ -16,7 +16,7 @@ export const STATIONS: StationData[] = [
   {
     id: "people",
     icon: Users,
-    year: "2012–2018",
+    year: "2012–2016",
     titleKey: "career.stations.people.title",
     subtitleKey: "career.stations.people.subtitle",
     descriptionKey: "career.stations.people.description",
@@ -30,7 +30,7 @@ export const STATIONS: StationData[] = [
   {
     id: "business",
     icon: Building2,
-    year: "2018–2021",
+    year: "2016–2019",
     titleKey: "career.stations.business.title",
     subtitleKey: "career.stations.business.subtitle",
     descriptionKey: "career.stations.business.description",
@@ -44,7 +44,7 @@ export const STATIONS: StationData[] = [
   {
     id: "technology",
     icon: Code2,
-    year: "2021–2024",
+    year: "2019–2024",
     titleKey: "career.stations.technology.title",
     subtitleKey: "career.stations.technology.subtitle",
     descriptionKey: "career.stations.technology.description",

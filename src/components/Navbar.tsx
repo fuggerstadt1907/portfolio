@@ -8,10 +8,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useTheme } from "@/components/ThemeProvider";
 
 const NAV_SECTIONS = [
-  { id: "problems", labelKey: "problems" },
   { id: "journey", labelKey: "journey" },
+  { id: "problems", labelKey: "problems" },
   { id: "about", labelKey: "about" },
-  { id: "skills", labelKey: "skills" },
   { id: "contact", labelKey: "contact" },
 ] as const;
 

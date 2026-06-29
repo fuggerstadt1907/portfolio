@@ -1,9 +1,21 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Terminal } from "lucide-react";
+
+function LinkedInIcon() {
+  return (
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+      <rect x="2" y="9" width="4" height="12" />
+      <circle cx="4" cy="4" r="2" />
+    </svg>
+  );
+}
 import { motion } from "framer-motion";
+
+const LINKEDIN_URL = "https://www.linkedin.com/in/alessandro-orlandi-584b29137";
 
 type Status = "idle" | "success" | "error";
 
@@ -40,12 +52,22 @@ export default function ContactTerminal() {
   return (
     <section id="contact" className="py-24 px-6">
       <div className="max-w-2xl mx-auto">
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="font-mono text-accent text-xs tracking-widest uppercase mb-10"
+        >
+          Kontakt
+        </motion.p>
+
         <motion.h2
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          className="text-3xl md:text-4xl font-bold text-foreground text-center mb-6"
+          transition={{ duration: 0.6, delay: 0.06, ease: "easeOut" }}
+          className="text-2xl md:text-3xl font-bold text-foreground mb-4 leading-snug"
         >
           {t("headline")}
         </motion.h2>
@@ -54,14 +76,28 @@ export default function ContactTerminal() {
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6, delay: 0.08, ease: "easeOut" }}
-          className="text-center mb-12 space-y-4"
+          transition={{ duration: 0.6, delay: 0.12, ease: "easeOut" }}
+          className="flex items-center gap-6 mb-10"
         >
-          {t("subheadline").split("\n\n").map((para, i) => (
-            <p key={i} className="text-muted text-lg max-w-2xl mx-auto">
-              {para}
-            </p>
-          ))}
+          <p className="text-muted text-base">{t("subheadline")}</p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.5, delay: 0.18, ease: "easeOut" }}
+          className="mb-10"
+        >
+          <a
+            href={LINKEDIN_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 px-5 py-2.5 border border-border rounded text-sm text-foreground hover:border-accent hover:text-accent transition-colors"
+          >
+            <LinkedInIcon />
+            {t("linkedin")}
+          </a>
         </motion.div>
 
         <motion.div
