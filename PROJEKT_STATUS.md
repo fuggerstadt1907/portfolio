@@ -1,13 +1,15 @@
-# Projekt-Status: Alessandro Orlandi — Initiativbewerbung Zwetschke
+# Projekt-Status: Alessandro Orlandi — Landing Page
 
 ## Ziel
-Hochprofessionelle, interaktive Landingpage als Initiativbewerbung bei der Agentur Zwetschke für die Rolle **Technical Product Owner / Solution Architect**.
+
+Hochprofessionelle, interaktive Landingpage
 
 ---
 
 ## Fortschritt
 
 ### Phase 1: Setup & Infrastruktur ✅
+
 - [x] Next.js 16 (App Router) — bereits initialisiert
 - [x] Dependencies installiert: `framer-motion`, `next-intl`, `lucide-react`, Tailwind CSS v4
 - [x] Ordnerstruktur: `/src/app`, `/src/components`, `/src/i18n`, `/messages`
@@ -22,6 +24,7 @@ Hochprofessionelle, interaktive Landingpage als Initiativbewerbung bei der Agent
 - [x] Alle 4 Sektions-Namespaces befüllt: `hero`, `problems`, `skills`, `contact`
 
 ### Phase 2: Komponenten ✅
+
 - [x] `Navbar` — Sprachswitch (DE/EN), Anker-Navigation, sticky mit Blur
 - [x] `HeroSection` — Animated Headline, Typewriter-Effekt, CTA-Buttons
 - [x] `ProblemSlider` — Horizontaler Karussell-Slider mit 4 Problem-Karten
@@ -30,6 +33,7 @@ Hochprofessionelle, interaktive Landingpage als Initiativbewerbung bei der Agent
 - [x] `Footer` — Minimalfooter mit Social Links
 
 ### Phase 3: Polish & Deployment ✅ (teilweise)
+
 - [x] Framer Motion Animationen (Scroll-Trigger mit `whileInView` + Stagger auf SkillsGrid, ProblemSlider, ContactTerminal)
 - [x] SEO Metadata (Open Graph, Twitter Card, robots)
 - [x] Performance: Google Fonts auf `next/font` migriert (kein render-blocking @import mehr)
@@ -41,16 +45,16 @@ Hochprofessionelle, interaktive Landingpage als Initiativbewerbung bei der Agent
 
 ## Tech Stack
 
-| Layer | Technologie |
-|-------|-------------|
-| Framework | Next.js 16 (App Router) |
-| Sprache | TypeScript |
-| Styling | Tailwind CSS v4 |
-| Animationen | Framer Motion 12 |
-| i18n | next-intl v4 |
-| Icons | lucide-react |
-| Fonts | Inter + JetBrains Mono (Google Fonts) |
-| Deployment | Vercel (geplant) |
+| Layer       | Technologie                           |
+| ----------- | ------------------------------------- |
+| Framework   | Next.js 16 (App Router)               |
+| Sprache     | TypeScript                            |
+| Styling     | Tailwind CSS v4                       |
+| Animationen | Framer Motion 12                      |
+| i18n        | next-intl v4                          |
+| Icons       | lucide-react                          |
+| Fonts       | Inter + JetBrains Mono (Google Fonts) |
+| Deployment  | Vercel (geplant)                      |
 
 ---
 
