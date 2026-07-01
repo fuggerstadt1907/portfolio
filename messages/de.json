@@ -73,15 +73,15 @@
     ]
   },
   "contact": {
-    "headline": "Wenn du das hier liest, hast du vermutlich eine konkrete Situation im Kopf.",
-    "subheadline": "Schreib mir. Kein Pitch, kein Prozess — ein Gespräch.",
+    "headline": "Wenn Sie das hier lesen, haben Sie vermutlich eine konkrete Situation im Kopf.",
+    "subheadline": "Schreiben Sie mir. Kein Pitch, kein Prozess — ein Gespräch.",
     "linkedin": "LinkedIn",
     "terminal_intro": "Initiiere Kontaktaufnahme...",
     "label_name": "Name",
     "label_email": "E-Mail",
     "label_message": "Nachricht",
-    "placeholder_name": "Dein Name",
-    "placeholder_email": "deine@email.de",
+    "placeholder_name": "Ihr Name",
+    "placeholder_email": "ihre@email.de",
     "placeholder_message": "Worum geht es?",
     "submit": "Absenden",
     "loading": "Wird gesendet...",
@@ -193,7 +193,7 @@
         "year": "seit 2024",
         "title": "Architect, Consultant & Senior Engineer",
         "subtitle": "Business und Engineering aus eigener Erfahrung verbinden",
-        "description": "Bei Evora war ich vollständige Business/Engineering-Schnittstelle: Anforderungsaufnahme mit Key-Usern, Übersetzung in technische Tickets, fachliche Führung eines remote Entwicklerteams. Als Selbstständiger habe ich eigene Produkte entwickelt — darunter DienstBuddy, eine mobile App für Rettungsdienst-Mitarbeitende. Heute bin ich Senior Software Engineer bei Peerigon.",
+        "description": "Bei Evora habe ich die Schnittstelle zwischen Business und Engineering übernommen: Anforderungsaufnahme mit Key-Usern, Übersetzung in technische Tickets, fachliche Führung eines remote Entwicklerteams. Als Selbstständiger habe ich eigene Produkte entwickelt — darunter DienstBuddy, eine mobile App für Rettungsdienst-Mitarbeitende. Heute bin ich Senior Software Engineer bei Peerigon.",
         "skills": {
           "productOwnership": "Business/Engineering-Interface",
           "discovery": "Team-Führung",
